@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/share_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="@string/share_text"
+        android:textSize="50dp"/>
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="121dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/share_text"
+        android:src="@drawable/app_logo"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/centre_marker"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="180dp"/>
+
+    <Button
+        android:id="@+id/to_view_notes_activity_btn"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="180dp"
+        android:padding="8dp"
+        android:layout_toLeftOf="@id/centre_marker"
+        android:text="@string/to_view_notes_activity_btn"
+        android:textSize="15dp"
+        android:onClick="viewNotes"
+        />
+
+    <Button
+        android:id="@+id/to_enter_name_activity_btn"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="180dp"
+        android:padding="8dp"
+        android:layout_toRightOf="@id/centre_marker"
+        android:text="@string/to_enter_name_activity_btn"
+        android:textSize="15dp"
+        android:onClick="openEnterNameActivity"
+        />
+</RelativeLayout>

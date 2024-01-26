@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="info_title">
+        <item>App Name:</item>
+        <item>Made By:</item>
+        <item>For Who:</item>
+        <item>Price:</item>
+        <item>Time Took:</item>
+        <item>Explaination:</item>
+        <item>Background Knowledge:</item>
+    </string-array>
+
+    <string-array name="info_des">
+        <item>This App is called SP Share.</item>
+        <item>This App is made by Roy and Fabian.</item>
+        <item>This App is dedicated to SP Students as well as Mr Tan.</item>
+        <item>This App is FREE.</item>
+        <item>This App took way longer than we liked to admit.The amount of blood we shed...</item>
+        <item>Click on "share notes" to upload your note and be a kind soul, click on "view notes" to do your last minute revision.</item>
+        <item>We wanted to build a relatively easy App but also in depth and useful to SP Students.</item>
+    </string-array>
+</resources>
